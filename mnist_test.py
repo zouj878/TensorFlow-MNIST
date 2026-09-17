@@ -37,7 +37,7 @@ model.compile(
 )
 
 # ===================== 3. 训练模型 =====================
-print("\n🚀 开始训练模型（仅训练5轮，新手快速体验）：")
+print("\n🚀 开始训练模型（仅训练5轮，快速体验）：")
 history = model.fit(
     x_train, y_train,
     epochs=5,  # 训练轮数（轮数越多越准，这里选5轮兼顾速度和效果）
@@ -70,4 +70,4 @@ for i, idx in enumerate(random_idx):
 plt.tight_layout()
 plt.show()
 
-print("\n🎉 体验完成！你可以看到模型能准确识别不同的手写数字～")
+print("\n🎉 可以看到模型能准确识别不同的手写数字～")
